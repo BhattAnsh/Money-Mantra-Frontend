@@ -1,4 +1,4 @@
-import React from "react";
+import React, { SVGProps } from "react";
 import Link from "next/link";
 
 type Props = {};
@@ -72,7 +72,7 @@ export default function Footer({}: Props) {
   );
 }
 
-function FacebookIcon(props) {
+function FacebookIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -91,7 +91,7 @@ function FacebookIcon(props) {
   );
 }
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -112,7 +112,7 @@ function LinkedinIcon(props) {
   );
 }
 
-function TwitterIcon(props) {
+function TwitterIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
