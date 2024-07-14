@@ -33,7 +33,7 @@ export default function AboutUs({}: Props) {
                   <p className="text-muted-foreground">Co-Founder, CEO</p>
                   <p className="text-sm text-muted-foreground">
                     John is a seasoned entrepreneur with a passion for building
-                    innovative web applications. He leads the company's vision
+                    innovative web applications. He leads the company vision
                     and strategy.
                   </p>
                 </div>
